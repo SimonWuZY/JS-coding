@@ -12,7 +12,6 @@ const pipe1 = (...Funs) => {
 const piped1 = pipe1(add, double);
 console.log(piped1(2));
 
-
 // 升级：支持异步函数
 const asyncSquare = async x => x ** 2;
 
